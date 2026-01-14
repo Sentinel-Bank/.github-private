@@ -131,43 +131,6 @@ flowchart LR
   App --> Obs
   Domain --> Obs
 ```
-Perfeito. Abaixo está o **README COMPLETO**, já **ajustado em Markdown**, com:
-
-* UI corporativo consistente
-* Gráficos (Mermaid) separados e bem posicionados
-* Seção de equipes completa (com slots de imagens)
-* Tecnologias com ícones integrados ao layout
-* Seção de informações públicas institucionais
-* Partes que estavam faltando já incluídas
-* Linguagem institucional (sem emojis)
-
-Você pode **copiar e colar direto** no `README.md`.
-
----
-
-## Visão de Arquitetura
-
-```mermaid
-flowchart LR
-  Client[Client / Front-End]
-  API[API Gateway]
-  App[Application Layer]
-  Domain[Domain Layer]
-  Infra[Infrastructure Layer]
-  DB[(Databases)]
-  Obs[Security & Observability]
-
-  Client --> API
-  API --> App
-  App --> Domain
-  Domain --> Infra
-  Infra --> DB
-
-  API --> Obs
-  App --> Obs
-  Domain --> Obs
-```
-
 ## 📊 Estatísticas do GitHub
 <p align="center">
   <img src="https://img.shields.io/github/stars/Sentinel-Bank/Sentinel-Bank?style=for-the-badge&color=1f6feb" />
